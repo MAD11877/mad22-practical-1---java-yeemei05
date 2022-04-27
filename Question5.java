@@ -26,7 +26,10 @@ public class Question5
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
      */
      
-    Scanner in = new Scanner(System.in);
+  Scanner sc  = new Scanner(System.in);
+      Int num;
+      System.out.println(“Enter number: ”);
+      num = sc.nextInt();
     
   }
 }
