@@ -16,8 +16,20 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-     
-    Scanner in = new Scanner(System.in);
-    
+    Int i, j, rows;
+    Scanner sc= new Scanner(System.in);
+      Int i, j,base
+      System.out.println(“Enter base of triangle:”);
+      base = sc.nextInt();	
+
+    for (i=1;  i<= base; i++)
+    {
+      for (j = num; j>=i; j-=1)
+      {
+        System.out.print(“* ”);
+      }
+      System.out.println(“”);
+    }
+   
   }
 }
